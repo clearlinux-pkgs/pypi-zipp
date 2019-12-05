@@ -4,7 +4,7 @@
 #
 Name     : zipp
 Version  : 0.6.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/57/dd/585d728479d97d25aeeb9aa470d36a4ad8d0ba5610f84e14770128ce6ff7/zipp-0.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/dd/585d728479d97d25aeeb9aa470d36a4ad8d0ba5610f84e14770128ce6ff7/zipp-0.6.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
