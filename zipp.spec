@@ -4,7 +4,7 @@
 #
 Name     : zipp
 Version  : 3.0.0
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/42/09/bb2a28216f9572da61a2c56c6d5bf6d8c011371d8268f42a9ca5a4cbaf40/zipp-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/42/09/bb2a28216f9572da61a2c56c6d5bf6d8c011371d8268f42a9ca5a4cbaf40/zipp-3.0.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
@@ -24,9 +24,32 @@ BuildRequires : virtualenv
 
 %description
 .. image:: https://img.shields.io/pypi/v/zipp.svg
-:target: `PyPI link`_
+   :target: `PyPI link`_
+
 .. image:: https://img.shields.io/pypi/pyversions/zipp.svg
-:target: `PyPI link`_
+   :target: `PyPI link`_
+
+.. _PyPI link: https://pypi.org/project/zipp
+
+.. image:: https://dev.azure.com/jaraco/zipp/_apis/build/status/jaraco.zipp?branchName=master
+   :target: https://dev.azure.com/jaraco/zipp/_build/latest?definitionId=1&branchName=master
+
+.. image:: https://img.shields.io/travis/jaraco/zipp/master.svg
+   :target: https://travis-ci.org/jaraco/zipp
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: Code style: Black
+
+.. image:: https://img.shields.io/appveyor/ci/jaraco/zipp/master.svg
+   :target: https://ci.appveyor.com/project/jaraco/zipp/branch/master
+
+.. .. image:: https://readthedocs.org/projects/zipp/badge/?version=latest
+..    :target: https://zipp.readthedocs.io/en/latest/?badge=latest
+
+
+A pathlib-compatible Zipfile object wrapper. A backport of the
+`Path object <https://docs.python.org/3.8/library/zipfile.html#path-objects>`_.
 
 %package license
 Summary: license components for the zipp package.
@@ -49,6 +72,7 @@ python components for the zipp package.
 Summary: python3 components for the zipp package.
 Group: Default
 Requires: python3-core
+Provides: pypi(zipp)
 
 %description python3
 python3 components for the zipp package.
@@ -63,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581998292
+export SOURCE_DATE_EPOCH=1582848954
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
