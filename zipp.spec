@@ -4,7 +4,7 @@
 #
 Name     : zipp
 Version  : 3.1.0
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/ce/8c/2c5f7dc1b418f659d36c04dec9446612fc7b45c8095cc7369dd772513055/zipp-3.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ce/8c/2c5f7dc1b418f659d36c04dec9446612fc7b45c8095cc7369dd772513055/zipp-3.1.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
