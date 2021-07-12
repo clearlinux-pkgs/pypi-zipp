@@ -4,7 +4,7 @@
 #
 Name     : zipp
 Version  : 3.5.0
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/3a/9f/1d4b62cbe8d222539a84089eeab603d8e45ee1f897803a0ae0860400d6e7/zipp-3.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3a/9f/1d4b62cbe8d222539a84089eeab603d8e45ee1f897803a0ae0860400d6e7/zipp-3.5.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
@@ -17,6 +17,8 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pluggy
 BuildRequires : py-python
 BuildRequires : pytest
+BuildRequires : setuptools
+BuildRequires : setuptools_scm
 BuildRequires : tox
 BuildRequires : virtualenv
 
@@ -62,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1625591760
+export SOURCE_DATE_EPOCH=1626122332
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
