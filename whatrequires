@@ -1,3 +1,5 @@
 # This file contains recursive sources that require this package
+ansible
 importlib_metadata
+importlib_resources
 python-zstandard
