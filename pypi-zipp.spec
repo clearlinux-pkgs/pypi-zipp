@@ -4,7 +4,7 @@
 #
 Name     : pypi-zipp
 Version  : 3.7.0
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/94/64/3115548d41cb001378099cb4fc6a6889c64ef43ac1b0e68c9e80b55884fa/zipp-3.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/64/3115548d41cb001378099cb4fc6a6889c64ef43ac1b0e68c9e80b55884fa/zipp-3.7.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
