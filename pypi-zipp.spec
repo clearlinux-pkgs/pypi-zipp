@@ -4,7 +4,7 @@
 #
 Name     : pypi-zipp
 Version  : 3.7.0
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/94/64/3115548d41cb001378099cb4fc6a6889c64ef43ac1b0e68c9e80b55884fa/zipp-3.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/64/3115548d41cb001378099cb4fc6a6889c64ef43ac1b0e68c9e80b55884fa/zipp-3.7.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
@@ -14,15 +14,13 @@ Requires: pypi-zipp-license = %{version}-%{release}
 Requires: pypi-zipp-python = %{version}-%{release}
 Requires: pypi-zipp-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
-BuildRequires : pytest
-BuildRequires : setuptools
-BuildRequires : setuptools_scm
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 .. image:: https://img.shields.io/pypi/v/zipp.svg
@@ -66,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641513343
+export SOURCE_DATE_EPOCH=1641944970
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
