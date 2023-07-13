@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-zipp
-Version  : 3.16.0
-Release  : 62
-URL      : https://files.pythonhosted.org/packages/52/9a/d93b483b9a744e7f71b311ee9bb5a228f6846219ceb5d6dbcb3eddcd1932/zipp-3.16.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/52/9a/d93b483b9a744e7f71b311ee9bb5a228f6846219ceb5d6dbcb3eddcd1932/zipp-3.16.0.tar.gz
+Version  : 3.16.1
+Release  : 63
+URL      : https://files.pythonhosted.org/packages/ef/76/5a9e1553f00ee55a6de6b3c176aa4c859c7f64b9bbdc48804df174dee890/zipp-3.16.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ef/76/5a9e1553f00ee55a6de6b3c176aa4c859c7f64b9bbdc48804df174dee890/zipp-3.16.1.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
 Group    : Development/Tools
 License  : MIT
@@ -58,10 +58,10 @@ python3 components for the pypi-zipp package.
 
 
 %prep
-%setup -q -n zipp-3.16.0
-cd %{_builddir}/zipp-3.16.0
+%setup -q -n zipp-3.16.1
+cd %{_builddir}/zipp-3.16.1
 pushd ..
-cp -a zipp-3.16.0 buildavx2
+cp -a zipp-3.16.1 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689006663
+export SOURCE_DATE_EPOCH=1689262381
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
