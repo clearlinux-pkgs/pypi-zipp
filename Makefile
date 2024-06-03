@@ -1,5 +1,5 @@
 PKG_NAME := pypi-zipp
-URL = https://files.pythonhosted.org/packages/e2/ec/48de0d79306a109f9872cca6b48e360e3d2d28893f472a3011005511985f/zipp-3.19.0.tar.gz
+URL = https://files.pythonhosted.org/packages/4f/a1/ac66fba5917fb7860f91cb251ac6cf838923a8abe89e059cc1988cb256d1/zipp-3.19.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
