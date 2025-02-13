@@ -7,7 +7,7 @@
 #
 Name     : pypi-zipp
 Version  : 3.21.0
-Release  : 77
+Release  : 78
 URL      : https://files.pythonhosted.org/packages/3f/50/bad581df71744867e9468ebd0bcd6505de3b275e06f202c2cb016e3ff56f/zipp-3.21.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3f/50/bad581df71744867e9468ebd0bcd6505de3b275e06f202c2cb016e3ff56f/zipp-3.21.0.tar.gz
 Summary  : Backport of pathlib-compatible object wrapper for zip files
